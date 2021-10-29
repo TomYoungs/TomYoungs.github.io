@@ -1,30 +1,24 @@
 {
-  "name": "portfolio-app",
-  "version": "0.1.0",
-  "repository": "git@github.com:TomYoungs/Portfolio-Website.git",
-  "contributors": [
-    "Tom Youngs <tomyoungs@gmail.com>"
-  ],
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "type-check": "tsc"
   },
   "dependencies": {
-    "next": "12.0.1",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "next": "latest",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "@types/node": "16.11.6",
-    "@types/react": "17.0.33",
-    "autoprefixer": "^10.4.0",
-    "eslint": "7",
+    "@types/node": "^12.12.21",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1",
+    "eslint": "7.32.0",
     "eslint-config-next": "12.0.1",
-    "postcss": "^8.3.11",
+    "postcss-preset-env": "^6.7.0",
     "tailwindcss": "^2.2.19",
-    "typescript": "4.4.4"
+    "typescript": "4.0"
   }
 }
